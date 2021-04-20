@@ -1,5 +1,5 @@
 {
-  "name": "contacts-backend",
+  "name": "lut-backend-assignment",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -13,7 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.12.5"
+    "mongoose": "^5.12.5",
+    "pug": "^3.0.2"
   },
   "devDependencies": {
     "chai": "^4.3.4",
