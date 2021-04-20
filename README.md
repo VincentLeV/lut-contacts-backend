@@ -22,8 +22,6 @@ Installing the dependencies and packages
 
 > npm install
 
-<br/>
-
 Running the server
 
 > npm run dev
@@ -36,25 +34,17 @@ Running the server
 
 > http://localhost:3000/contacts
 
-<br/>
-
 2. Get a contact
 
 > http://localhost:3000/contacts/&#60;id of the contact you want to look for&#62;
-
-<br/>
 
 3. Add a contact
 
 Please add both contact name and email in the body tab, those are the required fields. There are also optional fields that you could also add: phone and address.
 
-<br/>
-
 4. Update a contact
 
 Please write any field and updated value to the body that you would like to update.
-
-<br/>
 
 5. Delete a contact
 
