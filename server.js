@@ -3,7 +3,6 @@ require("dotenv").config();
 const express = require( "express" );
 const mongoose = require( "mongoose" );
 const app = express();
-const contacts = require( "./models/Contact" );
 
 const port = 3000;
 
@@ -13,8 +12,6 @@ db.on( "error", (err) => console.error(err) );
 db.once( "open", () => console.log("Connected to Database") );
 
 app.use( express.json() );
-
-// app.get( "/", (req, res) => res.render("index", { contacts }));
 
 const contactsRouter = require("./routes/contacts");
 app.use( "/contacts", contactsRouter );
