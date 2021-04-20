@@ -67,3 +67,7 @@ Please click on **Send Request** above each method to run.
 To run the test, in the terminal please type
 
 > npm test
+
+## **Demo**
+
+[Demo Video](https://www.loom.com/share/b66b5aeb944f46f1b04b8febbd3d4bab?sharedAppSource=personal_library)
