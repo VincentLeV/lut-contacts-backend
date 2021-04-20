@@ -1,28 +1,28 @@
-GET http://localhost:3000/contacts
+GET http://localhost:5000/api/members/
 
 ###
 
-GET http://localhost:3000/contacts/607db6f3c5a06b628aa2a370
+GET http://localhost:5000/api/members/6
 
 ###
 
-POST http://localhost:3000/contacts/
+POST http://localhost:5000/api/members/
 Content-Type: application/json
 
 {
-    "name": "Test Tester",
-    "email": "test.tester@gmail.com"
+    "name": "Test Member",
+    "email": "test.member@gmail.com"
 }
 
 ###
 
-PATCH http://localhost:3000/contacts/607db6f3c5a06b628aa2a379
+PUT http://localhost:5000/api/members/1
 Content-Type: application/json
 
 {
-    "name": "Testmore"
+    "name": "John Doe"
 }
 
 ###
 
-DELETE http://localhost:3000/contacts/607df236c1469f47c8798f50
+DELETE http://localhost:5000/api/members/1d263909-921e-43e8-b983-55698aab2916
